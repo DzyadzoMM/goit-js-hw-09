@@ -19,5 +19,16 @@
   "dependencies": {
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
-  }
+  },
+  "description": "Bu proje Vite kullanılarak oluşturulmuştur. Ek özelliklerin tanınması ve özelleştirilmesi için [belgelere bakın](https://vitejs.dev/).",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goitacademy/vanilla-app-template.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/goitacademy/vanilla-app-template/issues"
+  },
+  "homepage": "https://github.com/goitacademy/vanilla-app-template#readme"
 }
