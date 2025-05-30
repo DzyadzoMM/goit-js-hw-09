@@ -1,5 +1,5 @@
 import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
+import 'simple-lightbox/dist/simpleLightbox.min.css';
 import {images} from './images.js'
 
     const container = document.querySelector(".gallery");
