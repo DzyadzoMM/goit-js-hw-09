@@ -1,0 +1,56 @@
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Space between form elements */
+    max-width: 400px; /* Limit form width for better readability */
+    margin: 20px auto; /* Center the form on the page */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+  }
+  
+  .feedback-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .feedback-form input[type="email"],
+  .feedback-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 8px; /* Space between label text and input */
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .feedback-form input[type="email"]:focus,
+  .feedback-form textarea:focus {
+    border-color: #007bff; /* Highlight on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+  }
+  
+  .feedback-form textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+    min-height: 100px; /* Minimum height for the textarea */
+  }
+  
+  .feedback-form button {
+    background-color: #4E75FF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feedback-form button:hover {
+    background-color: #6C8CFF;
+  }
