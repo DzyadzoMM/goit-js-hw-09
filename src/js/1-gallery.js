@@ -1,7 +1,6 @@
-import {createGallery, images} from './images.js'
+import {images} from './images.js'
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import { preview } from 'vite';
 
     const container = document.querySelector(".gallery");
     
@@ -20,5 +19,5 @@ import { preview } from 'vite';
     const galleryMarkup = createGallery(images);
     container.insertAdjacentHTML('beforeend', galleryMarkup);
 
-    const lightbox = new SimpleLightbox('.container', {captionsData: alt,
-        captionsDelay:250, captionsPosition:'bottam',});
+    const lightbox = new SimpleLightbox('.container', {captionsData: 'alt',
+        captionsDelay:250, captionsPosition:'bottom',});
