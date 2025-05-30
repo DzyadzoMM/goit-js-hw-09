@@ -69,10 +69,9 @@ const container = document.querySelector(".gallery");
 
     const lightbox = new SimpleLightbox('.gallery a', 
       { captions: true,
-      captionsData: 'a alt',
+      captionsData: 'alt',
       captionsDelay:250, 
       captionsPosition:'bottom',});
-  console.log(lightbox.captionsData);
   
   
 
